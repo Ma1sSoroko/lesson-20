@@ -13,6 +13,7 @@ import type { RouteObject } from 'react-router'
 import { Activation } from './pages/Activation'
 import { NewPost } from './pages/NewPost'
 import { MyPosts } from './pages/MyPosts'
+
 const routes: RouteObject[] = [
     {
         element: <Layout />,
@@ -82,4 +83,4 @@ const routes: RouteObject[] = [
     },
 ]
 
-export const router = createBrowserRouter(routes)
+export const router = createBrowserRouter(routes, { basename: '/lesson-20' })
