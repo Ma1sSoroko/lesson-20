@@ -1,0 +1,16 @@
+.wrap {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    /* max-width: 1000px; */
+    grid-area: bigPost;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img {
+    width: 300px;
+    object-fit: cover;
+}

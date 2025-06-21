@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: repeat(6 1fr);
+    grid-gap: 15px 15px;
+    grid-template-areas: 'bigPost bigPost littlePost'
+    'bigPost bigPost littlePost2'
+    'averagePost areaAverage2 littlePost3'
+    'averagePost areaAverage2 littlePost4'
+    'averagePost3 areaAverage4 littlePost5'
+    'averagePost3 areaAverage4 littlePost6';
+}
+
+.areaLittle2 {
+    grid-area: littlePost2;
+}
+.areaLittle3 {
+    grid-area: littlePost3;
+}
+.areaLittle4 {
+    grid-area: littlePost4;
+}
+.areaLittle5 {
+    grid-area: littlePost5;
+}
+.areaLittle6 {
+    grid-area: littlePost6;
+}
+
+.areaAverage {
+    grid-area: averagePost;
+}
+.areaAverage2 {
+    grid-area: averagePost2;
+}
+.areaAverage3 {
+    grid-area: averagePost3;
+}
+.areaAverage4 {
+    grid-area: averagePost4;
+}
